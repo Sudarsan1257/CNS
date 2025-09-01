@@ -16,6 +16,7 @@ alphabet.
 5. Display the decrypted text.
 
 ## PROGRAM: 
+```
 #include<stdio.h> 
 #include<string.h> 
 #include<ctype.h>  
@@ -62,7 +63,8 @@ plain[i] = plain[i] + 26;
 printf("%c", plain[i]); 
 } 
 plain[length] = '\0'; // Null-terminate the plain text string return 0;                                                            
-} 
+}
+```
 ## OUTPUT: 
 <img width="915" height="370" alt="Screenshot 2025-09-01 143630" src="https://github.com/user-attachments/assets/ff29805f-6897-4e88-ae16-530c8ccd5b19" />
 
